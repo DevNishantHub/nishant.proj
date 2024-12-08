@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ .navbar{
+    background-color: #0f1111;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .logo{
+    width: 110px;
+    height: 56px;
+ }
+ #amzon{
+    background-image: url("amazon_logo.png");
+    width: 110px;
+    height: 60px;
+    background-size: cover;
+ }
+ .deliver{
+    width: 90px;
+    height: 90%;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .icon{
+    width: 15px;
+    height: 18px;
+ }
+ .del{
+    color: #dee2e6;
+    font-size: 0.72rem;
+    margin-left: 28px;
+    margin-top: 10px;
+    font-weight: 100;
+ }
+ .below{
+    display: flex;
+    margin-left: 2px;
+    font-weight: lighter;
+ }
+ .ind{
+    margin-left: 3px;
+    font-size: 1.3rem;
+ }
+ .border{
+    border: 1px solid transparent;
+ }
+ .border:hover{
+    border: 1px solid #ffffff;
+ }
+ .search{
+    width: 56%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:white;
+    margin-left: 20px;
+ }
+ input{
+    width: 100%;
+    height: 65%;
+    border: none;
+    outline: none;
+    font-size: 1.15rem;
+ }
+ select{
+    height: 65%;
+    width: 60px;
+    background-color: #dee2e6;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+    border: none;
+    text-align: center;
+    font-size: 12px;
+    color: #495057;
+ }
+ .search-icon{
+    width: 50px;
+    height: 65%;
+    background-color: #ffbf69;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 10%;
+    color: #0f1111;
+    font-size: 20px;
+ }
+ .sign-in{
+    width: 140px;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    color: white;
+    margin-left: 20px;
+ }
+ .first{
+    font-size: 0.85rem;
+    font-weight: 100;
+    color: #dee2e6;
+ }
+ .second{
+    font-size: 1rem;
+    font-weight: 900;
+
+ }
+ .order{
+    width: 90px;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    color: white;
+ }
+ .ord{
+   width: 8%;
+   height: 90%;
+   color: white;
+   display: flex;
+   align-items: center;
+   margin-top: 5px;
+   margin-bottom: 4px;
+}
+.iqoo{
+   width: 40%;
+   height: 90%;
+}
+.hello{
+   font-size: 2.25rem;
+   margin-bottom: 0%;
+}
+.text{
+   margin-left: 2px;
+   font-size: 20px;
+}
+.second-nav{
+   height: 40px;
+   width: 100%;
+   background-color: #232f3e;
+   color: #ffffff;
+   display: flex;
+}
+.All{
+   height: 100%;
+   width: 5%;
+   display: flex;
+   flex-direction: row;
+   justify-content:center;
+   align-items: center;
+   margin-left: 5px;
+}
+.vb{
+   padding-left: 6px;
+   font-weight: 900;
+}
+.deal{
+   height: 100%;
+   width: 6.5%;
+   display: flex;
+   flex-direction: row;
+   justify-content:center;
+   align-items: center;
+   font-size: 1.1rem;
+}
+.ama{
+   height: 100%;
+   width: 5%;
+   display: flex;
+   flex-direction: row;
+   justify-content:center;
+   align-items: center;
+   font-size: 1.1rem;
+}
+.cut{
+   height: 100%;
+   width: 10%;
+   display: flex;
+   flex-direction: row;
+   justify-content:center;
+   align-items: center;
+   font-size: 1.1rem;
+}
+.am{
+   height: 100%;
+   width: 3%;
+   display: flex;
+   flex-direction: row;
+   justify-content:center;
+   align-items: center;
+   font-size: 1.1rem;
+}
+.hero{
+   background-image: url("hero_image.jpg");
+   width: 100%;
+   height: 350px;
+   background-size: cover;
+   display: flex;
+}
+.msg{
+   background-color: #f5f6f6;
+   height: 40px;
+   display: flex;
+   justify-content: center;   
+   align-content: center;
+   align-items: center;
+   align-self:flex-end; 
+   width: 95%;
+   margin-left: 2%;
+   margin-bottom: 40px;
+
+}
+.cont{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: #e2e7e6;
+}
+.box{
+   margin-top: 40px;
+   height: 360px;
+   width: 320px;
+   background-color: white;
+}
+.box1{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+.img1{
+   background-image: url(box1_image.jpg);
+   height: 250px;
+   width: 90%;
+   margin-left: 3%;
+   background-size: cover;
+}
+.an{
+   padding-left: 10%;
+   height: fit-content;
+   width:80px;
+   text-decoration:  none;
+   color: #33aeff;
+
+}
+h1{
+   margin-left: 10px;
+
+}
+.img2{
+   background-image: url(box2_image.jpg);
+   height: 250px;
+   width: 90%;
+   margin-left: 3%;
+   background-size: cover;
+}
+.img3{
+   background-image: url(box3_image.jpg);
+   height: 250px;
+   width: 90%;
+   margin-left: 3%;
+   background-size: cover;
+}
+.img4{
+   background-image: url(box4_image.jpg);
+   height: 250px;
+   width: 90%;
+   margin-left: 3%;
+   background-size: cover;
+}
+.box2{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+.box3{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+.box5{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+.img5{
+   background-image: url(box5_image.jpg);
+   height: 250px;
+   width: 90%;
+   margin-left: 3%;
+   background-size: cover;
+}
+.img6{
+   background-image: url(box6_image.jpg);
+   height: 250px;
+   width: 90%;
+   margin-left: 3%;
+   background-size: cover;
+}
+.img7{
+   background-image: url(box7_image.jpg);
+   height: 250px;
+   width: 90%;
+   margin-left: 3%;
+   background-size: cover;
+}
+.img8{
+   background-image: url(box8_image.jpg);
+   height: 250px;
+   width: 90%;
+   margin-left: 3%;
+   background-size: cover;
+}
+.box6{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+.box7{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+.box8{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+.cont2{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: #e2e7e6;
+}
+/** fotter**/
+.bot-nav{
+   height: 35px;
+   width: 100%;
+   background-color: #485769;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 15px;
+
+}
+.bots{
+   height: 400px;
+   width: 100%;
+   background-color:#232f3e;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   color: white;
+}
+.know{
+   color: white;
+   text-decoration: none;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   padding-top: 50px;
+}
+a{
+   color: white;
+   text-decoration: none;
+   color: #dddddd;
+   margin-top: 4px;
+   margin-bottom: 4px;
+}
+.head{
+   display: flex;
+   align-self: flex-start;
+   margin:0;
+   
+
+}
+@media only screen and (max-width: 768px) {
+   .navbar {
+     height: 40px;
+   }
+   .logo {
+     width: 80px;
+   }
+   .deliver {
+     width: 70px;
+   }
+   #amzon {
+     width: 80px;
+   }
+   .del {
+     font-size: 0.6rem;
+   }
+   .ind {
+     font-size: 1.2rem;
+   }
+   .below {
+     font-size: 0.7rem;
+   }
+   .search {
+     width: 60%;
+   }
+   input {
+     width: 90%;
+   }
+   select {
+     width: 50px;
+   }
+   .search-icon {
+     width: 40px;
+   }
+   .sign-in {
+     width: 120px;
+   }
+   .first {
+     font-size: 0.75rem;
+   }
+   .second {
+     font-size: 0.8rem;
+   }
+   .order {
+     width: 70px;
+   }
+   .ord {
+     margin-top: 8px;
+     margin-bottom: 6px;
+   }
+   .iqoo {
+     width: 50%;
+   }
+   .hello {
+     font-size: 1.5rem;
+   }
+   .text {
+     font-size: 16px;
+   }
+   .All, .vb, .deal, .ama, .cut, .am {
+     padding: 3px;
+   }
+   .msg {
+     width: 90%;
+   }
+   .box {
+     width: 280px;
+   }
+   .box1 {
+     margin-top: 20px;
+   }
+   .an {
+     padding-left: 5%;
+   }
+   h1 {
+     font-size: 16px;
+   }
+   .img1, .img2, .img3, .img4 {
+     height: 200px;
+   }
+   .cont2 {
+     flex-wrap: wrap;
+   }
+   .bot-nav {
+     font-size: 13px;
+   }
+   .know {
+     padding-top: 20px;
+   }
+   a {
+     margin-top: 2px;
+     margin-bottom: 2px;
+   }
+ }
+ 
+ @media only screen and (max-width: 1024px) {
+   .navbar {
+     height: 50px;
+   }
+   .logo {
+     width: 90px;
+   }
+   #amzon {
+     width: 90px;
+   }
+ }
